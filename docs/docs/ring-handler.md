@@ -138,7 +138,7 @@ It's also important to remember that the Figwheel's server already
 uses [ring-defaults](https://github.com/ring-clojure/ring-defaults)
 middleware. 
 
-When you create [your own server](your-own-server),
+When you create [your own server](your-own-server.html),
 this middleware will not be present and you will have to supply it by
 wrapping your handler via `(ring.middleware.defaults/wrap-defaults
 your-app-handler ring.middleware.defaults/site-defaults)`
